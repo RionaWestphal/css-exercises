@@ -1,5 +1,4 @@
-.para,
-.small-para {
+p {
   color: hsl(0, 100%, 50%);
 }
 
@@ -7,7 +6,7 @@
   font-size: 14px;
 }
 
-.para {
+p {
   font-size: 22px;
 }
 
@@ -18,17 +17,21 @@
 } 
 
 .button {
+  font-size: 20px;
+}
+
+.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
-  color: red;
-  font-size: 14px;
-}
-
-div.text {
+.text {
   color: green;
   font-size: 22px;
+}
+
+.text .child {
+  color: red;
+  font-size: 14px;
 }
